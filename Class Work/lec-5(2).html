@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+  
+    <form action="">
+       <u> <h1>Input fields:</h1></u>
+       <h3>Text</h3> <input type="text"><br>
+       <h3>Password</h3> <input type="password"><br>
+       <h3>Number</h3> <input type="number"><br>
+       <h3>Colour</h3> <input type="color"><br>
+       <h3>Date</h3> <input type="date"><br>
+       <h3>Time</h3> <input type="time"><br>
+       <hr>
+       <u> <h1>Labels and placeholders:</h1></u>
+       <!-- id and label should be same -->
+       <label for="username">Username:</label>
+       <input type="text" id="username" placeholder="Username"><br>
+       <label for="Password">Password:</label>
+       <input type="password" id="Password" placeholder="Password">
+       <hr>
+       <u> <h1>Buttons:</h1></u>
+       <button type="submit">Submit</button>
+       <button type="reset">Reset</button>
+       <hr>
+       <u> <h1>Checkbox:</h1></u>
+       <!--it  select multiple values -->
+       <label for="age">Age:</label>
+       <input type="checkbox" id="age"><br>
+       <label for="age">Age:</label>
+       <input type="checkbox" id="age"><br>
+       <!-- Already checked -->
+       <label for="age">Age:</label>
+       <input type="checkbox" id="age" checked><br>
+       <hr>
+       <u> <h1>Radio Buttons:</h1></u>
+       <h4>Gender:</h4>
+       <label for="male">Male</label>
+       <input type="radio" id="male">
+       <label for="female">Female</label>
+       <input type="radio" id="female">
+       <hr>
+       <u> <h1>Range:</h1></u>
+       <label for="volume">Volume:</label>
+       <input type="range" id="range"><br>
+       <h4>Minmum & Maximum value:</h4>
+       <label for="volume">Volume:</label>
+       <input type="range" id="range" min="0" max="100"><br>
+       <h4> Step:</h4> 
+        <!-- step:itne value se he badega on scrolling -->
+       <label for="volume">Volume:</label>
+       <input type="range" id="range" min="0" step="10"><br>
+       <h4>Value:</h4> 
+         <!-- value:set value jese start hoga-->
+       <label for="volume">Volume:</label>
+       <input type="range" id="range" value="70"><br>
+        <hr>
+        <u> <h1>Textarea:</h1></u>
+        <label for="note">Note:</label>
+        <textarea id="note" rows="3" col="50"></textarea>
+        <hr>
+        <u> <h1>Dropdown:</h1></u>
+        <label for="places">Choose a Place:</label>
+<select id="places">
+  <option value="India">India</option>
+  <option value="USA">USA</option>
+  <option value="America">America</option>
+  <option value="China">China</option>
+</select>
+
+    </form>
+</body>
+</html>
