@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+input[type=text], select {
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  background-color:#392b78;
+  color: white;
+  padding: 14px;
+  margin: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display:inline;
+}
+
+body{
+    background-color: rgb(234, 241, 244);
+    padding: auto;
+    text-align: justify;}
+
+h4{
+    color: #f70707;
+    font-size: 20px;
+  margin-top: 24px;
+  margin-bottom: 24px;
+}
+
+input[type=file] {
+  background-color: #392b78;
+  color: white;
+  padding: 12px 20px;
+  }
+  div {
+  background-color: lightgrey;
+  border: 15px solid #392b78;
+  align-items: center;
+  margin: auto;
+  width: 50%;  
+  padding: 10px;
+}
+
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Application Form</title>
+</head>
+<body> 
+    <div>
+ <center><h1><u><i>JOB APPLICATION FORM</i></u></h1>
+ <h4>Fill the required information.</h4>
+</center>
+    <form action="">
+        <label for="id"><b>Email Id:</b></label>
+        <input type="checkbox" id="id" checked>
+        <label for="email">sahirarora119@gmail.com</label><br><br>
+        
+      
+
+        <label for="firstname"><b>First Name:</b></label>
+        <input type="text" id="firstname" size="20" >
+        <label for="lastname"><b>Last Name:</b></label>
+        <input type="text" id="lastname" size="20"><br><br>
+
+        <b>Gender:</b>
+       <label for="male">Male</label>
+       <input type="radio" id="male">
+       <label for="female">Female</label>
+       <input type="radio" id="female"><br><br>
+
+       <label for="fname"><b>Father's Name:</b></label>
+        <input type="text" id="fname" size="20">
+        <label for="mname"><b>Mother's Name:</b></label>
+        <input type="text" id="mname" size="20"><br><br>
+
+ <h4><u>Address:</u></h4>    
+ <label for="country"><b>Country/Region:</b></label>
+<select id="country">
+  <option value="India">India</option>
+  <option value="USA">USA</option>
+  <option value="Australia">Australia</option>
+  <option value="China">China</option>
+</select>
+
+<label for="fno"><b>Flat,House no.:</b></label>
+<input type="text" id="fno" size="20"><br><br>
+<label for="area"><b>Area/Street:</b></label>
+<input type="text" id="area" size="20">
+<label for="landmark"><b>Landmark:</b></label>
+<input type="text" id="landmark" placeholder="Eg. near hospital" size="20"><br><br>
+<label for="town"><b>Town/City:</b></label>
+<input type="town" id="town" size="20"><br><br>
+
+
+<label for="phone"><b>Contact Details:</b></label>
+<select id="phone">
+  <option value="+91">+91</option>
+  <option value="93">93</option>
+  <option value="2(450)">2(450)</option>
+  <option value="43">43</option>
+</select>
+<label for="number"><b></label>
+<input type="number" id="number" size="20"><br><br>
+
+<h4><u>Skills:</u></h4>
+<label for="skills">Python</label>
+<input type="checkbox" id="skills"><br>
+<label for="skills">Java</label>
+<input type="checkbox" id="skills"><br>
+<label for="skills">Html</label>
+<input type="checkbox" id="skills"><br>
+<label for="skills">Css</label>
+<input type="checkbox" id="skills"><br>
+<label for="skills">DevOpps</label>
+<input type="checkbox" id="skills"><br>
+<label for="skills">DSA</label>
+<input type="checkbox" id="skills"><br>
+<label for="skills">C++</label>
+<input type="checkbox" id="skills"><br>
+<label for="skills">OOPS</label>
+<input type="checkbox" id="skills"><br>
+<label for="skills">DBMS</label>
+<input type="checkbox" id="skills"><br>
+<label for="skills">React</label>
+<input type="checkbox" id="skills"><br><br>
+
+<h4><u>Upload Resume:</u></h4>
+<label for="file">Select a file:</label>
+<input type="file" id="file"><br><br><br>
+
+<input type="submit" value="Submit">
+</form>
+</div>
+</body>
+</html>
