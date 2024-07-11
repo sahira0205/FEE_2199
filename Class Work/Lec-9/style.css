@@ -1,0 +1,32 @@
+/* universal selector */
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+/* ID selector(used only in one element) */
+#superheros{
+    color: blueviolet;
+    background-color: #f5f5dc;
+    text-align: center;
+}
+/* Class selector(can be used in more than one element) */
+.super{
+    color:red;
+    font-weight: 800;
+}
+/* Element selector */
+h1{
+    color: palevioletred;
+    background-color: plum;
+    text-decoration:line-through;
+}
+/* Attribute selector */
+input[type="text"]{
+    background-color: pink;
+}
+input[type="text"]{
+    background-color: pink;
+}
+input[type="password"]{
+    background-color:rgb(180, 140, 180);
+}
