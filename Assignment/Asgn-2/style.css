@@ -1,0 +1,50 @@
+input[type=text], select {
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type=submit] {
+    background-color:#392b78;
+    color: white;
+    padding: 14px;
+    margin: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  label {
+    padding: 12px 12px 12px 0;
+    display:inline;
+  }
+  
+  body{
+      background-color: rgb(234, 241, 244);
+      padding: auto;
+      text-align: justify;}
+  
+  h4{
+      color: #f70707;
+      font-size: 20px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+  }
+  
+  input[type=file] {
+    background-color: #392b78;
+    color: white;
+    padding: 12px 20px;
+    }
+    div {
+    background-color: lightgrey;
+    border: 15px solid #392b78;
+    align-items: center;
+    margin: auto;
+    width: 50%;  
+    padding: 10px;
+  }
+  
