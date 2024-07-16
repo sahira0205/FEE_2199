@@ -1,0 +1,46 @@
+body{
+    /* border: 2px solid black; */
+    padding: 0;
+    margin: 0;
+}
+div{
+    padding: 20px 10px 5px;
+    /* 20 for top ,10 for right, 5 for bottom ,and left will be 10 */
+    margin: 25px 15px 5px ;
+    border: 2px solid red;
+}
+h1{
+    text-align: center;
+}
+a{
+    text-decoration: line-through;
+    text-decoration-color: brown;
+    text-decoration-style:wavy;
+    font-size: 25px;
+}
+p{
+    text-align: justify;
+}
+/* text-align: */
+
+a{
+    font-size: 30px;
+    text-decoration:line-through;
+    text-decoration-color: aqua;
+    text-decoration-style: wavy;
+}
+
+h2{
+    word-spacing: 5px;
+    /* letter-spacing: 10px; */
+    text-indent: 20px;
+    text-transform: lowercase;
+    /* text-transform: uppercase; */
+    /* text-transform: capitalize; */
+}
+
+h6{
+    text-shadow: 10px 8px 5px rgb(240, 155, 155) ;
+    color: transparent;
+    font-size: larger;
+}

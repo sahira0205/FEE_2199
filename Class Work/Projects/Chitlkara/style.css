@@ -1,0 +1,103 @@
+
+*{
+  margin:0px;
+  padding:0px;
+}
+body{
+  background-image:url(Images/bg.jpg);
+  background-size: cover;
+  background-position:center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+ 
+  
+}
+.color{
+  background-color: red;
+  height: 6px;
+}
+.logo{
+  float: right;
+    margin-right: 0px;
+    position: absolute;
+    right: 10px;
+    top: 0px;
+}
+.main_div{
+  width: 285px;
+  height: 550px;
+  padding-top: 0px;
+  background-color: #ffffff;
+  border: 2px solid #cccccc;
+  float: right;
+  /* margin: 90px 190px; */
+  margin:100px;
+  margin-right: 145px;
+  margin-top: 80px;
+  
+}
+ .main_div> img{
+    padding: 10px 40px;
+    width: 200px;
+  }
+.form>form{
+  padding: 20px;
+}
+label{
+  font-size: 15px;
+  font-family: Arial;
+}
+.form>form>input{
+  border: 1px solid #7f9db9;
+    height: 22px;
+    width: 220px;
+ 
+}
+select{
+  width: 225px;
+  height: 23px;
+  font-size: 12px;
+  border: 1px solid #7f9db9;
+}
+.checkbox{
+  margin-top: 10px;
+}
+.img_1{
+  margin-top: 10px;
+}
+.img_1:hover{
+  cursor: pointer;
+}
+p{
+  font-size: 14px;
+}
+p:hover{
+  cursor: pointer;
+}
+a{
+  font-size: 12px;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  color: #2e5b87;
+  
+}
+.icon{
+  margin: 10px 0px 0px 60px;
+  display: flex;
+  gap: 30px;
+}
+h5{
+  font-size: 12px;
+  margin-top: 10px;
+  text-align: center;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+.para_1{
+  color: #545454;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+.end{
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
