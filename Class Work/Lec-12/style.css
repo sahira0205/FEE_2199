@@ -1,0 +1,15 @@
+#container{
+    background-color: #c3bbed;
+    display: flex;
+    height: 300px;
+    width: 300px;
+    border: solid rgb(9, 9, 9);
+   align-items: flex-end;
+}
+.items{
+    height: 80px;
+    width: 80px;
+    border: solid brown;
+    text-align:center;
+    align-content: flex-end;
+}
