@@ -1,0 +1,8 @@
+  section{
+      display: grid;
+    gap:20px 10px;
+    grid-template-columns: repeat(auto-fill,maxmin(300px,4fr));   
+  }
+  div{
+    height: 50px;
+  }
