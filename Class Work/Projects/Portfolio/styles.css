@@ -1,0 +1,32 @@
+ body {
+    padding-top: 56px; 
+}
+
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+}
+
+.hero p {
+    font-size: 1.25rem;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #343a40;
+}
+
+#skills h5 {
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+
+#skills p {
+    font-size: 1rem;
+}
+ 
