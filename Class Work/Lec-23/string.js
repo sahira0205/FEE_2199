@@ -28,7 +28,7 @@ let msg1="Idiot \n";
 console.log(msg1.repeat(10));
 
 //9.String template literals
-let firstName="Ramanjot";
-let lastName="Kaur";
+let firstName="Sahira";
+let lastName="Arora";
 console.log("Miss."+ " "+firstName +" "+ lastName);
-console.log(Miss. ${firstName} ${lastName}); //preferred
+console.log(`Miss. ${firstName} ${lastName}`); //preferred
