@@ -82,7 +82,7 @@ let fruits = ['apple','bananas','guava', 'pineapple'];
 
 console.log(fruits.splice(3))  //It count from index 4 upto next string length
 console.log(fruits.splice(0,1));
-
+ 
 console.log(fruits.splice(0,1,'grapes','lemon'));
 console.log(fruits);
 
