@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Chessboard</title>
+</head>
+<body>
+  <script>
+    // User story 3: Declare board size
+    const board_size = 8;
+
+    // User story 1: Function to print data
+    function print(data) {
+      const label = document.createElement("span");
+      label.textContent = data;
+      document.body.appendChild(label);
+    }
+
+    // User story 2: Function to create a new line
+    function newLine() {
+      document.body.appendChild(document.createElement("br"));
+    }
+
+    // User story 4: Generate and print the chessboard
+    for (let row = 0; row < board_size; row++) {
+      for (let col = 0; col < board_size; col++) {
+        // Alternate between "*" and "#" based on row and column
+        print((row + col) % 2 === 0 ? "*" : "#");
+      }
+      newLine(); // Move to the next line after each row
+    }
+  </script>
+</body>
+</html>
