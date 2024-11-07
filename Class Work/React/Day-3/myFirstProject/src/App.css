@@ -1,0 +1,18 @@
+.main_div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    height: auto;
+    background-color: pink;
+}
+#root{
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
