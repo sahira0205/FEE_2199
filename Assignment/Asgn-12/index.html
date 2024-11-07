@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple Coding Compiler</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Coding Compiler</h1>
+    
+    <textarea id="code" rows="10" placeholder="Write your code here..."></textarea>
+
+    <div>
+      <label for="language">Choose Language:</label>
+      <select id="language">
+        <option value="50">C</option>
+        <option value="62">Java</option>
+        <option value="71">Python</option>
+        <option value="63">JavaScript</option>
+      </select>
+    </div>
+
+    <button onclick="compileCode()">Compile & Run</button>
+
+    <h3>Output:</h3>
+    <pre id="output"></pre>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

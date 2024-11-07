@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  textarea, select, button {
+    width: 80%;
+    margin: 10px 0;
+    padding: 8px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  pre {
+    background-color: #f4f4f4;
+    padding: 10px;
+    text-align: left;
+  }
+  
